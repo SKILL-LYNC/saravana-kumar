@@ -7,6 +7,10 @@ align-items: center;
 justify-content: space-between;
 
 font-size: 18px;
+
+padding: 10px;
+
+margin: 0 80px 0px 80px;
 }
 .head_left{}
 .head_left img{
@@ -59,7 +63,7 @@ font-size: 18px;
 }
 .head_login a{
     text-decoration: none;
-    padding: 13px 25px;
+    padding: 13px 30px;
     background: #146cc5;
     color: #fff;
     border-radius: 25px;

@@ -8,7 +8,7 @@ justify-content: space-between;
 
 font-size: 18px;
 
-padding: 10px;
+padding: 20px 0 0 0;
 
 margin: 0 80px 0px 80px;
 }
@@ -30,7 +30,7 @@ margin: 0 80px 0px 80px;
 
 .head_menu li {
   display: inline;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 .dropdown ul {
   list-style-type: none;
@@ -74,7 +74,9 @@ margin: 0 80px 0px 80px;
   position: relative;
   display: inline-block;
 }
-
+.dropdown span.active{
+	color:#146cc5;
+}
 .head_menu .dropdown_content {
   display: none;
   position: absolute;

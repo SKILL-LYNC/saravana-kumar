@@ -41,6 +41,7 @@ justify-content: space-between;
 		align-items: center;
 		justify-content: space-between;
 		font-weight: 600;
+		width: 560px;
 	}
 	.home_main_container .main_btn a{
 		text-decoration: none;
@@ -78,7 +79,8 @@ justify-content: space-between;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin: 25px 0 35px 0;
+		margin: 35px 0 35px 0;
+		padding: 0 50px;
 	}
 		.why_reason{
 		display: flex;
@@ -106,7 +108,7 @@ justify-content: space-between;
 	/*Placement Companies*/
 	.place_container{
 		background: #0c2343;
-		padding: 50px 0;
+		padding: 50px 0 60px 0;
 	}
 		.place_title{
 		font-size: 40px;
@@ -121,7 +123,7 @@ justify-content: space-between;
 		display: flex;
 		align-items: center;
 		justify-content: space-evenly;
-		margin: 50px 0px 60px 0;
+		margin: 50px 50px 60px 50px;
 	}
 		.place_compaies img{
 		width: 125px;
@@ -149,7 +151,7 @@ justify-content: space-between;
 		.rec_co_title{
 		font-size: 40px;
 		font-weight: 600;
-		padding: 50px 0px 50px 100px;
+		padding: 50px 0px 50px 200px;
 		display: flex;
 		align-items: baseline;
 		justify-content: space-evenly;
@@ -157,8 +159,8 @@ justify-content: space-between;
 		.rec_co_title .icon{padding: 11px;/* margin-left: 60px; */box-shadow: 1px 1px 5px 2px #c6d3f77d;border-radius: 45px;}
 		.rec_co_title svg{
 		color: #1b50e0;
-		width: 20px;
-		height: 20px;
+		width: 24px;
+		height: 24px;
 		/* box-shadow: 1px 1px 2px 2px #ccc; */
 	}
 		.rec_co_card_container{
@@ -177,17 +179,18 @@ justify-content: space-between;
 	}
 		.rec_co_card img{margin: 10px;}
 		.rec_co_name{
-		font-size: 18px;
-		line-height: 19px;
+		font-size: 22px;
+		line-height: 22px;
 		font-weight: 600;
 		margin: 0 10px;
 	}
 		.rec_co_review{
 		font-size: 14px;
-		margin: 10px 10px 0 10px;
+		margin: 15px 0px 5px 10px;
 	}
 		.rec_co_review i{
 		color: #ffb100;
+		margin-right: 3px;
 	}
 		.rec_co_review i.grey{
 		color: #b9b9b9;
@@ -240,7 +243,7 @@ justify-content: space-between;
 	}
 	.rec_co_view_all{
 		text-align: center;
-		margin: 50px 0;
+		margin: 50px 0 80px 0;
 	}
 	.rec_co_view_all a{
 		color: #fff !important;
@@ -261,6 +264,7 @@ justify-content: space-between;
 		.tre_pro_container{
 		background: #0c2343;
 		padding: 50px 0;
+		margin-bottom: 100px;
 	}
 		.tre_pro_title{
 		font-size: 40px;
@@ -283,17 +287,17 @@ justify-content: space-between;
 		background: #fff;
 	}
 		.tre_pro_name{
-		margin: 8px 10px;
+		margin: 8px 15px;
 		font-weight: 500;
 	}
 		.tre_pro_desc{
-		margin: 0 10px 15px 10px;
+		margin: 0 15px 15px 15px;
 		font-size: 12px;
 		color: #898989;
 		line-height: 16px;
 	}
 		.tre_pro_content_container{
-		padding: 10px;
+		padding: 10px 15px 15px 15px;
 		border-top: 1px solid #ccc;
 	}
 		.tre_pro_tag{
@@ -358,24 +362,26 @@ justify-content: space-between;
 
 
 	.review_container{
-		margin: 50px 100px 0 100px;
+		margin: 50px 120px 0 120px;
 		display: flex;
 		justify-content: space-between;
 	}
 		.review_left_container{
 		width: 50%;
-		padding: 0 15px 0 20px;
+		padding: 0 25px;
 	}
 		.review_title{
-		font-size: 47px;
+		font-size: 40px;
 		font-weight: 700;
-		line-height: 48px;
+		line-height: 40px;
+		width: 360px;
 	}
 		.review_sub_title{
 		margin: 40px 0px 50px 0;
-		font-size: 22px;
-		font-weight: 600;
-		line-height: 24px;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 25px;
+		width: 500px;
 	}
 		.review_read_more{}
 		.review_read_more a{
@@ -388,13 +394,18 @@ justify-content: space-between;
 	}
 		.review_right_container{
 		width: 50%;
-		padding: 0 25px;
+		padding: 0 25px 0 7px;
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+		align-items: flex-end;
 	}
 		.review_card{
 		box-shadow: 2px 2px 14px 0px #1b50e038;
 		border-radius: 10px;
 		padding: 20px;
-		margin: 0 20px 50px 0;
+		margin: 0 0px 50px 0;
+		width: 70%;
 	}
 		.review_name_container{
 		display: flex;
@@ -457,7 +468,7 @@ justify-content: space-between;
 
 
 	.news_container{
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 		.news_title{
 		font-size: 40px;
@@ -505,4 +516,17 @@ justify-content: space-between;
 	.news_card_container a{
     width: 28%;
     text-decoration: none;
+}
+
+
+.review_title img{
+	width:33px;
+}
+
+/*hover*/
+.head_login a:hover , .rec_co_know_more a:hover,.tre_pro_know_morea:hover{
+color:#fff;	
+}
+.place_more a:hover , .tre_pro_view_alla:hover {
+color: #0c2343;
 }

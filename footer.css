@@ -1,8 +1,9 @@
 .foo_container{
-    padding: 50px 100px;
+    padding: 50px 100px 100px 100px;
     background: #0c2343;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 100px;
 }
 	.foo_card{
     width: 25%;
@@ -21,6 +22,7 @@
     text-decoration: none;
     font-size: 14px;
     color: #9a9ea3;
+    line-height: 20px;
 }
 .foo_card:nth-child(3){
 	
@@ -58,4 +60,9 @@ padding-left: 30px;
     color: #fff;
     width: 16px;
     height: 16px;
+}
+
+.foo_links a:hover{
+	color: #9a9ea3;
+	text-decoration:underline;
 }

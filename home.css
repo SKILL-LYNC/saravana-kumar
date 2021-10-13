@@ -6,15 +6,16 @@
 	}
 	 
 
+
 	.home_main_container{
 		padding: 100px 0;
 		margin: 0 80px 0px 80px;
 	}
 	.home_container{
 		
-	display: flex;
+display: flex;
 		
-	justify-content: space-between;
+justify-content: space-between;
 	}
 	.home_left{
     width: 50%;
@@ -24,7 +25,8 @@
 		font-weight: 700;
 		line-height: 60px;
 		width: 420px;
-	} 
+	}
+	.home_right img{}
 	.home_main_container .main_text span{
 		color: #32d2b2;
 	}
@@ -57,7 +59,10 @@
 		color: #000 !important;
 	}
 	.home_main_container .main_btn .secondary i{}
-  
+ 
+
+
+
 	/*Why Container*/
 	.why_container{
 		box-shadow: 0px 0px 17px 1px #1b50e038;
@@ -74,7 +79,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin: 35px 0 35px 0;
+		margin: 35px 0 45px 0;
 		padding: 0 50px;
 	}
 		.why_reason{
@@ -139,7 +144,8 @@
 
 
 
-	/* recomm course*/ 
+	/* recomm course*/
+
 
 		.rec_co_container{}
 		.rec_co_title{
@@ -150,11 +156,12 @@
 		align-items: baseline;
 		justify-content: space-evenly;
 	}
-		.rec_co_title .icon{padding: 11px; box-shadow: 1px 1px 5px 2px #c6d3f77d;border-radius: 45px;}
+		.rec_co_title .icon{padding: 11px;/* margin-left: 60px; */box-shadow: 1px 1px 5px 2px #c6d3f77d;border-radius: 45px;}
 		.rec_co_title svg{
 		color: #1b50e0;
 		width: 24px;
-		height: 24px; 
+		height: 24px;
+		/* box-shadow: 1px 1px 2px 2px #ccc; */
 	}
 		.rec_co_card_container{
 		display: flex;
@@ -172,7 +179,7 @@
 	}
 		.rec_co_card img{margin: 10px;}
 		.rec_co_name{
-		font-size: 22px;
+		font-size: 21px;
 		line-height: 22px;
 		font-weight: 600;
 		margin: 0 10px;
@@ -464,12 +471,10 @@
     margin-bottom: 50px;
 }
 		.news_title{
+		text-align: center;
 		font-size: 40px;
 		font-weight: 600;
-		padding: 50px 0px 50px 0px;
-		display: flex;
-		align-items: baseline;
-		justify-content: space-evenly;
+		padding: 30px 100px 50px 100px;
 	}
 		.news_card_container{
 		display: flex;
@@ -512,7 +517,7 @@
 }
 
 
-.review_title img{
+.review_title img , .news_title img{
 	width:33px;
 }
 

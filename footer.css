@@ -14,9 +14,7 @@
   font-size: 20px;
   margin-bottom: 20px;
 }
-.foo_links {
-  /* padding-right: 0px; */
-}
+ 
 .foo_links a {
   display: block;
   text-decoration: none;
@@ -31,8 +29,6 @@
   padding-left: 30px;
 }
 
-.foo_logo {
-}
 .foo_logo img {
   width: 225px;
 }

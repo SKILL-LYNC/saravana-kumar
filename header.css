@@ -1,26 +1,26 @@
-.head_container{
+.head_container {
+  display: flex;
 
-display: flex;
+  align-items: center;
 
-align-items: center;
+  justify-content: space-between;
 
-justify-content: space-between;
+  font-size: 18px;
 
-font-size: 18px;
+  padding: 20px 0 0 0;
 
-padding: 20px 0 0 0;
-
-margin: 0 80px 0px 80px;
+  margin: 0 80px 0px 80px;
 }
-.head_left{}
-.head_left img{
-    width: 200px;
+.head_left {
 }
- 
-.head_menu a{
-    padding: 2px;
-    text-decoration: none;
-    color: #000;
+.head_left img {
+  width: 200px;
+}
+
+.head_menu a {
+  padding: 2px;
+  text-decoration: none;
+  color: #000;
 }
 .head_menu ul {
   list-style-type: none;
@@ -37,45 +37,44 @@ margin: 0 80px 0px 80px;
   margin: 0;
   padding: 0px;
 }
-.dropdown span i{
-	font-size: 14px;
-	color: #146cc5;
+.dropdown span i {
+  font-size: 14px;
+  color: #146cc5;
 }
 .dropdown li {
   display: block;
   padding: 0 0px;
 }
-.head_search{
-    padding: 13px;
-    box-shadow: 1px 2px 6px 0px #cdcccc;
-    border-radius: 25px;
-    margin-right: 20px;
+.head_search {
+  padding: 13px;
+  box-shadow: 1px 2px 6px 0px #cdcccc;
+  border-radius: 25px;
+  margin-right: 20px;
 }
 
- 
-.head_search i{
-    color: #146cc5;
-    font-size: 20px;
+.head_search i {
+  color: #146cc5;
+  font-size: 20px;
 }
 
-.head_login{
-    font-weight: 500;
+.head_login {
+  font-weight: 500;
 }
-.head_login a{
-    text-decoration: none;
-    padding: 13px 30px;
-    background: #146cc5;
-    color: #fff;
-    border-radius: 25px;
-    box-shadow: 2px 1px 6px 2px #e1edfb;
+.head_login a {
+  text-decoration: none;
+  padding: 13px 30px;
+  background: #146cc5;
+  color: #fff;
+  border-radius: 25px;
+  box-shadow: 2px 1px 6px 2px #e1edfb;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
 }
-.dropdown span.active{
-	color:#146cc5;
+.dropdown span.active {
+  color: #146cc5;
 }
 .head_menu .dropdown_content {
   display: none;
@@ -92,19 +91,17 @@ margin: 0 80px 0px 80px;
   display: block;
 }
 
-.head_menu, .head_right{
-	
-display: flex;
-	
-align-items: center;
-	
-justify-content: space-between;
-	 
+.head_menu,
+.head_right {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
 }
 
-.head_menu { 
-	
-border: 1px solid #ccc;
-	
-border-radius: 25px;
+.head_menu {
+  border: 1px solid #ccc;
+
+  border-radius: 25px;
 }
